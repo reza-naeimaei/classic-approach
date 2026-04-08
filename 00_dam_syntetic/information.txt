@@ -1,0 +1,16 @@
+Groud Truth of deformation: 
+Displacment of selected control points along y-direction by 1 or 2 cm;
+IDs + respective magnitude of deformation:
+sel_1cm = [110, 109, 118, 127, 137, 147, 157, 167, 177, 188, 199, 200];
+sel_2cm = [120, 119, 130,129,128, 140,139,138,150,149,148,160,159,158,168,169,170,178,179,180,190,189];
+
+-> Picture displays GT deformation of CP and of surface.
+-> Picture displays sampled points being synthetic pc of surface. 
+
+Selected parameters: 
+Station coordinates: [0,25,10] (x/y/z) [m]
+
+Simulated noise applied to data
+appliednoise.sig_s = 0.001; % [m]
+appliednoise.sig_hz = 0.004 * 200/180; % [gon]
+appliednoise.sig_v = 0.004 * 200/180; % [gon]
